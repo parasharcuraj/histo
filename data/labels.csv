@@ -1,0 +1,11 @@
+image_id,filename,mask_file,dominant_class,normal_pct,dysplasia_pct,carcinoma_pct
+0,image_00.png,mask_00.png,Dysplasia,41.2,58.8,0.0
+1,image_01.png,mask_01.png,Normal,100.0,0.0,0.0
+2,image_02.png,mask_02.png,Normal,100.0,0.0,0.0
+3,image_03.png,mask_03.png,Dysplasia,0.0,83.5,16.5
+4,image_04.png,mask_04.png,Normal,52.0,48.0,0.0
+5,image_05.png,mask_05.png,Dysplasia,0.0,51.5,48.5
+6,image_06.png,mask_06.png,Carcinoma,0.0,0.0,100.0
+7,image_07.png,mask_07.png,Dysplasia,0.0,65.3,34.7
+8,image_08.png,mask_08.png,Carcinoma,0.0,0.0,100.0
+9,image_09.png,mask_09.png,Carcinoma,0.0,42.3,57.7

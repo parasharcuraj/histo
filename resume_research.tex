@@ -1,0 +1,158 @@
+%==============================
+% ATS-FRIENDLY RESEARCH / PhD APPLICATION CV
+%==============================
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage[T1]{fontenc}
+
+% ---------- Page Setup ----------
+\geometry{left=0.6in,right=0.6in,top=0.45in,bottom=0.55in}
+\raggedright
+\linespread{0.96}
+
+% ---------- List Spacing ----------
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=2pt}
+
+% ---------- Section Formatting ----------
+\titleformat{\section}
+{\scshape\large}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{4pt}{4pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+%================ HEADER =================
+\begin{center}
+{\LARGE \textbf{Himanshu Kumar Parashar}}\\[2pt]
+Central University of Rajasthan, Ajmer, India\\
++91-6205601731 \ | \ hkp2857@gmail.com\\
+\href{https://github.com/parasharcuraj}{GitHub} \ | \
+\href{https://www.linkedin.com/in/himanshu-parashar-a7217322a}{LinkedIn}
+\end{center}
+
+
+%================ RESEARCH OBJECTIVE =================
+\section{Research Objective}
+Aspiring researcher with hands-on experience in deep learning, medical image analysis, histopathological image segmentation, biomedical signal processing, and time-series modeling. Seeking PhD or research positions abroad to advance work in AI-driven healthcare, computational pathology, and computer vision. Experienced in designing end-to-end deep learning pipelines for feature extraction, segmentation, and classification across multiple research internships at premier Indian institutes (NIT Jamshedpur, IIT Kharagpur, IIITDM Kurnool).
+
+
+%================ EDUCATION =================
+\section{Education}
+
+\textbf{Integrated M.Sc in Computer Science} \hfill 2021 -- 2026 (Expected)\\
+Central University of Rajasthan (CURAJ), Ajmer, India \hfill CGPA: 7.44/10\\
+\textit{Thesis: Deep Learning-Based Liver Disease Classification Using Histopathological Image Analysis}\\[2pt]
+\textbf{Higher Secondary (CBSE)} \hfill 2020\\
+Jawahar Navodaya Vidyalaya, Muzaffarpur, Bihar, India \hfill 83\%
+
+
+%================ RESEARCH INTERESTS =================
+\section{Research Interests}
+Deep Learning \textbullet{} Medical Image Analysis \textbullet{} Histopathological Image Segmentation \textbullet{} Computational Pathology \textbullet{}
+Oral Cancer Detection \textbullet{} Feature Extraction \textbullet{} Computer Vision \textbullet{} Retinal Image Quality Assessment \textbullet{}
+Biomedical Signal Processing \textbullet{} EEG/BCI Systems \textbullet{} Time-Series Classification \textbullet{} Healthcare AI
+
+
+%================ RESEARCH EXPERIENCE =================
+\section{Research Experience}
+
+\textbf{Research Intern -- Oral Cancer Histopathological Image Analysis} \hfill Dec 2025 -- Present\\
+\textit{National Institute of Technology (NIT) Jamshedpur, India}
+\begin{itemize}
+\item Developing deep learning models for automated segmentation and classification of oral squamous cell carcinoma (OSCC) from histopathological whole-slide images.
+\item Designing feature extraction pipelines using pre-trained CNNs (ResNet, EfficientNet, DenseNet) and vision transformers to capture discriminative tissue-level morphological features.
+\item Implementing semantic segmentation architectures (U-Net, Attention U-Net, DeepLabV3+) for precise delineation of tumour, stroma, and epithelial regions in oral tissue samples.
+\item Applying stain normalization (Macenko, Vahadane), patch-level tiling, and augmentation strategies to handle variability across multi-centre histopathology datasets.
+\item Evaluating segmentation performance using Dice coefficient, IoU, pixel-wise accuracy, and performing ablation studies across backbone architectures.
+\end{itemize}
+
+\textbf{Research Intern -- EEG Signal Analysis for Autism Detection} \hfill Aug 2025 -- Nov 2025\\
+\textit{Indian Institute of Technology (IIT) Kharagpur, India}
+\begin{itemize}
+\item Investigated EEG-based biomarkers for autism spectrum disorder (ASD) detection using the BCIAUT-P300 dataset in a P300 Brain--Computer Interface (BCI) paradigm.
+\item Applied signal preprocessing techniques including band-pass filtering, EOG/EMG artifact removal, epoch segmentation, and feature extraction to improve signal-to-noise ratio.
+\item Designed and trained deep learning classifiers for P300 event-related potential (ERP) detection, achieving robust discrimination between target and non-target stimuli.
+\item Validated model performance through accuracy metrics, confusion matrices, precision-recall analysis, and statistical significance testing.
+\end{itemize}
+
+\textbf{Deep Learning Research Intern -- Human Activity Recognition} \hfill May 2025 -- July 2025\\
+\textit{Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kurnool, India}
+\begin{itemize}
+\item Designed and benchmarked six deep learning architectures (CNN, LSTM, GRU, BiLSTM, Transformer, RBFNN) for 6-class human activity recognition from smartphone inertial sensor data.
+\item Engineered a preprocessing pipeline with noise filtering, z-score normalization, and sliding window segmentation for accelerometer and gyroscope time-series data.
+\item Achieved state-of-the-art performance with a BiLSTM--Transformer hybrid model (Test accuracy: 95.80\%), outperforming all individual baseline architectures.
+\item Conducted systematic model comparison using classification reports, confusion matrices, and learning curve analysis.
+\end{itemize}
+
+
+%================ RESEARCH PROJECTS =================
+\section{Research Projects}
+
+\textbf{Continuous Fundus Image Quality Assessment (FIQA)} \hfill 2025\\
+\textit{Under Review -- Springer Nature}
+\begin{itemize}
+\item Developed a deep learning framework using Inception-V3 backbone with a multi-layer regression head to predict continuous Mean Opinion Scores (MOS) for retinal fundus images.
+\item Trained the model with Smooth L1 (Huber) loss on the FIQS dataset, achieving SRCC = 0.9459 and PLCC = 0.9575, outperforming TRIQ, DeepIQA, HyperIQA, and GraphIQA baselines.
+\item Designed the system for automated quality control in large-scale diabetic retinopathy and teleophthalmology screening programs.
+\end{itemize}
+
+\textbf{Liver Disease Classification Using Histopathological Image Analysis} \hfill Ongoing (Master's Thesis)
+\begin{itemize}
+\item Developing deep learning models for automated liver disease classification from histopathological tissue images as part of master's thesis research.
+\item Performing image preprocessing including stain normalization, patch extraction, and data augmentation on whole-slide histopathology images.
+\item Implementing and comparing CNN-based architectures for multi-class liver pathology detection and classification.
+\item Evaluating model performance using accuracy, precision, recall, F1-score, confusion matrices, and ROC-AUC analysis.
+\end{itemize}
+
+\textbf{Lung Cancer Detection Using Deep Learning on DICOM CT Scans}
+\begin{itemize}
+\item Developed and evaluated deep learning models (CNN, ANN, LSTM, GRU) for 5-class lung cancer classification from DICOM CT scan images.
+\item Processed 40,000+ medical images with DICOM parsing, normalization, resizing, and grayscale conversion; built a complete training and evaluation pipeline.
+\item Achieved highest performance with CNN (Test accuracy: 98.64\%, Validation: 98.80\%), significantly outperforming LSTM (91.20\%), ANN (85.69\%), and GRU (73.01\%).
+\item Performed multi-class evaluation using per-class precision, recall, F1-score, confusion matrices, and ROC-AUC curves.
+\end{itemize}
+
+%================ PUBLICATIONS =================
+\section{Publications \& Manuscripts}
+\begin{itemize}
+\item R.R. Choudhary, \textbf{H.K. Parashar}, and G. Meena, ``Continuous Fundus Image Quality Assessment Using an Inception-V3 Regression Framework,'' \textit{Springer Nature} (Under Review), 2025.
+\item \textit{Manuscript under preparation} -- Deep learning-based liver disease classification using histopathological image analysis.
+\end{itemize}
+
+
+%================ RELEVANT COURSEWORK =================
+\section{Relevant Coursework}
+Machine Learning \textbullet{} Deep Learning \textbullet{} Computer Vision \textbullet{}
+Data Structures \& Algorithms \textbullet{} Probability \& Statistics \textbullet{}
+Linear Algebra \textbullet{} Database Management Systems \textbullet{}
+Object-Oriented Programming
+% Add or remove courses based on what you actually took
+
+%================ TECHNICAL SKILLS =================
+\section{Technical Skills}
+\textbf{Languages:} Python, C/C++, Java\\
+\textbf{ML/DL Frameworks:} TensorFlow, Keras, PyTorch, Scikit-learn\\
+\textbf{Data \& Visualization:} NumPy, Pandas, Matplotlib, Seaborn\\
+\textbf{Signal Processing:} SciPy, Band-pass Filtering, Artifact Removal\\
+\textbf{Medical Imaging:} DICOM, OpenCV, OpenSlide, Stain Normalization, Patch Extraction, Image Segmentation Pipelines\\
+\textbf{Tools:} Git, GitHub, Jupyter Notebook, VS Code, LaTeX\\
+\textbf{Databases:} MySQL, MongoDB
+
+
+%================ OTHER EXPERIENCE =================
+\section{Additional Experience}
+\textbf{Language Model Trainer} -- Outlier AI (Remote) \hfill 2024 -- 2025\\
+Contributed to LLM fine-tuning through prompt engineering, multilingual evaluation, and preference ranking. Maintained 90\%+ task accuracy.\\[3pt]
+\textbf{AI Data Annotator} -- Appen (Remote) \hfill 2024 -- Present\\
+Performed data annotation, quality assurance, and multilingual evaluation for AI training pipelines.
+
+
+\end{document}
