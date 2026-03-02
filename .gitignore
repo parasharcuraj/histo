@@ -6,3 +6,9 @@ run_notebook.py
 =9.3.0
 parasharcuraj/
 .ipynb_checkpoints/
+oral_cancer_*/
+oral_cancer_50/
+*.zip
+data/
+outputs/
+histopath_images/
